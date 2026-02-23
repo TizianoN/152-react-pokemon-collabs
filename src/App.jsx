@@ -1,7 +1,12 @@
+import Navbar from "./components/Navbar";
+
 export default function App() {
   return (
     <>
-      <h1>Test</h1>
+      <Navbar />
+      <div className="container">
+        <h1 className="my-5">PokeAPI project</h1>
+      </div>
     </>
   );
 }
