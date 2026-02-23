@@ -1,7 +1,9 @@
 export default function App() {
   return (
     <>
-      <h1>Test - 2</h1>
+      <div className="container">
+        <h1 className="my-5">PokeAPI project</h1>
+      </div>
     </>
   );
 }
